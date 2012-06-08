@@ -13,6 +13,10 @@ Show routes in your Rails app while working in development. Visit `http://localh
 
 The core functionality of Sextant is now [merged into Rails 4.0](https://github.com/rails/rails/commit/8186754097e0cc54a8853f2a5c0d2b3fbf4ae059) under `rails/info/routes`. If you want this functionality in earlier rails use Sextant. I would like to improve that functionality and this gem is a good place to experiment. If you have ideas on functionality you would like, check the issues to make sure it hasn't been suggested before, and then create one, or send me a message [@schneems](http://twitter.com/schneems)
 
+## Compatibility
+
+Sextant is only compatible with Rails 3.2 and newer. 
+
 ## Why?
 
 Running `rake routes` is slow and painful, mostly due to the time to initialize rails. When you're working in development you likely have your rails server booted, you can save this time by rendering the routes in a web request. You can only develop as quick as your tools will allow, so speeding up your tools speeds your development. Sextant allows you to quickly see your routes.
